@@ -1,0 +1,16 @@
+# Dependências base para Colab
+gradio>=5.0.0
+numpy
+opencv-python-headless
+Pillow
+torch
+torchvision
+cupy-cuda12x
+# Real-ESRGAN + GFPGAN (--no-deps para evitar conflito com basicsr)
+basicsr==1.4.2
+realesrgan
+gfpgan
+facexlib
+filterpy
+lmdb
+yapf
